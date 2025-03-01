@@ -36,6 +36,7 @@
     background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
     height: 80vh;
     width: 50vh;
+    backdround-size:cover;
     padding: 24px;
 }
 
