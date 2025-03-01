@@ -34,7 +34,6 @@
 
 .favourite-places-bg-container {
     background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
-    background-size: cover;
     height: 80vh;
     width: 50vh;
     padding: 24px;
