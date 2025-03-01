@@ -2,7 +2,7 @@
 
 .bg-container {
     background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
-    height: 100vh;
+    height: 80vh;
     width: 50vh;
     background-size: cover;
 }
@@ -35,7 +35,7 @@
 .favourite-places-bg-container {
     background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     width: 50vh;
     padding: 24px;
 }
@@ -78,7 +78,8 @@
 
 .detailed-view-bg-container {
     background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
-    height: 100vh;
+    height: 80vh;
+    width: 50vh;
     background-size: cover;
 }
 
