@@ -32,12 +32,12 @@
 
 
 .banner-section-bg-container {
-    background-color: #5A3E85;
+    background-color: #B0B9E6;
     background-size: cover;
 }
 
 .banner-heading {
-    color: #B0B9E6;
+    color: #5A3E85;
     font-family: "Roboto";
     font-size: 55px;
     font-weight: 300;
@@ -45,7 +45,7 @@
 }
 
 .banner-caption {
-    color: #B0B9E6;
+    color: #5A3E85;
     font-family: "Roboto";
     font-size: 30px;
     font-weight: 300;
