@@ -36,19 +36,51 @@
     background-size: cover;
 }
 
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .banner-heading {
+    font-size: 3em;
+    text-align: center;
+    animation: slideIn 4s ease-in-out;
     color: #5A3E85;
     font-family: "Roboto";
-    font-size: 55px;
-    font-weight: 300;
-    text-align: center;
 }
 
 .banner-caption {
     color: #5A3E85;
     font-family: "Roboto";
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+span {
+    opacity: 0;
+    display: inline-block;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+span.space {
+    width: 10px;
+    /* Space width */
+    display: inline-block;
+}
+
+span.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .btn {
