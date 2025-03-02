@@ -65,20 +65,20 @@
     overflow: hidden;
 }
 
-span {
+.animated-text span {
     opacity: 0;
     display: inline-block;
     transform: translateY(10px);
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-span.space {
+.animated-text span.space {
     width: 10px;
     /* Space width */
     display: inline-block;
 }
 
-span.show {
+.animated-text span.show {
     opacity: 1;
     transform: translateY(0);
 }
