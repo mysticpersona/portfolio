@@ -50,7 +50,7 @@
 }
 
 .banner-heading {
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     animation: slideIn 4s ease-in-out;
     color: #5A3E85;
@@ -60,7 +60,7 @@
 .banner-caption {
     color: #5A3E85;
     font-family: "Roboto";
-    font-size: 24px;
+    font-size: 35px;
     font-weight: bold;
     margin: 10px 0;
     overflow: hidden;
