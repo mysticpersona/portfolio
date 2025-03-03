@@ -30,10 +30,10 @@
     font-family: "Roboto";
 }
 
-@media only screen and (min-width: 350px){
+@media only screen and (ax-width: 768px){
     .banner-section-bg-container{
         background-color: #B0B9E6;
-        height: 60vh;
+        height: 50vh;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
