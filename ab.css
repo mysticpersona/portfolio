@@ -42,10 +42,16 @@
 }
 
 
-.banner-section-bg-container {
-    background-color: #B0B9E6;
-    height:100vh;
-    background-size: cover;
+
+/* For larger screens (above 768px) */
+@media only screen and (min-width: 769px) {
+    .banner-section-bg-container {
+        height: 100vh;
+        background-color: #B0B9E6;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
 
 @keyframes slideIn {
