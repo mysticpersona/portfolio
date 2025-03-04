@@ -30,14 +30,14 @@
     font-family: "Roboto";
 }
 
-@media (max-width: 768px) {
+@media (width < 768px) {
     .banner-heading {
-        font-size: 24px;
+        font-size: 20px;
         line-height: 1.2;
     }
     
     .banner-caption {
-        font-size: 16px;
+        font-size: 15px;
         margin-bottom: 12px;  /* Adjusts spacing for better readability */
     }
     
