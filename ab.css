@@ -58,7 +58,10 @@
     }
 }
 
-
+.no-break{
+    white-space: nowrap;
+    word-break:keep-all;
+}
 
 .banner-section-bg-container {
     background-color: #B0B9E6;
