@@ -37,6 +37,15 @@
     background-size: cover;
 }
 
+
+
+.banner-heading {
+    font-size: 4em;
+    text-align: center;
+    animation: slideIn 4s ease-in-out;
+    color: #5A3E85;
+    font-family: "Roboto";
+}
 @keyframes slideIn {
     from {
         opacity: 0;
@@ -49,14 +58,6 @@
     }
 }
 
-
-.banner-heading {
-    font-size: 4em;
-    text-align: center;
-    animation: slideIn 4s ease-in-out;
-    color: #5A3E85;
-    font-family: "Roboto";
-}
 
 .banner-caption {
     color: #5A3E85;
