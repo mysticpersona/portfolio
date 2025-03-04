@@ -30,6 +30,35 @@
     font-family: "Roboto";
 }
 
+@media (max-width: 768px) {
+    .banner-heading {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    
+    .banner-caption {
+        font-size: 16px;
+        margin-bottom: 12px;  /* Adjusts spacing for better readability */
+    }
+    
+    .btn {
+        font-size: 14px;
+        padding: 8px 12px;
+        border-radius: 6px;  /* Slight rounding for better mobile aesthetics */
+    }
+
+    .banner-section-bg-container {
+        background-size: cover;
+        min-height: 85vh;  /* Adjusts height for mobile screens */
+        padding: 30px 10px; /* Adds padding to avoid content sticking to edges */
+    }
+
+    .text-center.p-5 {
+        padding: 10px; /* Reduces padding on mobile to fit content well */
+    }
+}
+
+
 
 .banner-section-bg-container {
     background-color: #B0B9E6;
