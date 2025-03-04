@@ -66,10 +66,6 @@
     background-size: cover;
 }
 
-.no-break{
-    white-space: nowrap;
-    word-break: keep-all;
-}
 
 .banner-heading {
     font-size: 3em;
