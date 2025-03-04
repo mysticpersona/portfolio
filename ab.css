@@ -68,6 +68,7 @@
 
 .no-break{
     white-space: nowrap;
+    word-break: keep-all;
 }
 
 .banner-heading {
