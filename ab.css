@@ -30,40 +30,12 @@
     font-family: "Roboto";
 }
 
-@media only screen and (width < 768px){
-    .banner-section-bg-container{
+
+.banner-section-bg-container{
         background-color: #B0B9E6;
-        height: 60vh;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-}
-    
-}
-
-
-
-/* For larger screens (above 768px) */
-@media only screen and (width >= 769px) {
-    .banner-section-bg-container {
         height: 100vh;
-        background-color: #B0B9E6;
         background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-}
-
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    
 }
 
 .banner-heading {
